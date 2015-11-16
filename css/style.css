@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Sarpanch:400,700,500);
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #ECEDEF;
+}
+.calculator {
+    width: 260px;
+    height: 333px;
+    background-color: #BAC3C5;
+    border-radius: 5%;
+    margin: 7% auto;
+    text-align: center;
+}
+
+.calculator p#title {
+    padding-top: 10px;
+    margin-bottom: -10px;
+    color: #7d777b;
+}
+
+.calculator p#tagline {
+    text-transform: uppercase;
+    color: #969194;
+    font-size: .7em;
+}
+
+#answer {
+    text-align: right;
+    font-family: 'Sarpanch', sans-serif;
+    letter-spacing: 0;
+}
+
+.calculator input[type='text'] {
+    background-color: #E7E7DA;
+    line-height: 40px;
+    width: 80%;
+    font-size: 2em;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.calculator input[type='text']:focus {
+    outline: none;
+}
+
+.calculator .row {
+    display: block;
+}
+
+.calculator .row button {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #334D5C;
+    font-size: 1.2em;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 1.1em;
+    border-radius: 20%;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+.calculator .row button:focus {
+    outline: 0;
+}
+
+.calculator .row .ctrl {
+    background-color: #b33445;
+}
+.calculator .row .big {
+    background-color: #2ecc71;
+    position: relative;
+    height: 87px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 29px;
+    margin-left: -17px;
+}
